@@ -32,7 +32,7 @@ if (!miscToken) {
   console.warn("missing storage access_token");
 }
 kekaAPIheaders.append("authorization", "Bearer " + miscToken);
-/Users/yudiz-parth/Documents/Projects/Tutorials/misc-repo/keka-shift-details.min.js
+
 var requestOptions = {
   method: "GET",
   headers: kekaAPIheaders,
